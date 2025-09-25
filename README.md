@@ -30,7 +30,7 @@ After doing some cleaning and setting up the necessary views on SQL, I connected
 - **KPI chart** (quick stats of season, key, mode, #songs, and total streams)
 - **Dashboard** (to see the full flow/story)
 
-View live dashboard here: 
+View live dashboard here: [Music Tableau Dashboard](https://public.tableau.com/views/musicprojecttableau/DASH?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 # 🔑 Key Insights
 - There **wasn't a strong correlation** with features such as danceability, energy, and valence with song popularity, but there was a **slight correlation** with BPM (faster the more popular).
