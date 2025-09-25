@@ -13,4 +13,13 @@ Everyone knows that certain artists simply pull more streams (Drake, Taylor Swif
 - **GitHub** → Version control and project documentation
 
 ## 🗂️ Data Preparation (MySQL)
-My first step was finding 
+My first step was finding a database that had not only the artists, song, and streams, but also specific song features, like BPM, danceability, energy, etc.
+I came across one on Kaggle and connected it to MySQL workbench to do some data cleaning
+I also created SQL **views** to aggregate data by:
+  - **Popularity** (Quartiles to show tiers of popularity from bottom 25% to top 25%)
+  - **Song Features** (see song feature averages and if it affects the popularity of the track)
+  - **Year** (see what year(s) dominated streams/made the top 25 threshold)
+  - **Season** (Winter, Spring, Summer, Fall - the trend of the number of streams, popular tracks, and average BPM of each season)
+  - **Key & Mode** (e.g., C Major, A Minor, the trend of key and mode in relation to season)
+
+
